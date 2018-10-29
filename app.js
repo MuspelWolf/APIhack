@@ -1,0 +1,12 @@
+'use strict'
+
+const express = require('express');
+const app = express();
+const bodyParser = require("body-parser");
+const newsRoutes = require('./Routes/newsRoutes');
+const UserRoutes = require('./Routes/userRoutes');
+
+app.use(bodyParser.urlencoded({extended: false}));
+app.use(bodyParser.json());
+
+module.exports = app;
