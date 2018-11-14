@@ -44,7 +44,8 @@ function createNews(req, res) {
         title: title,
         content: content,
         date: date,
-        photo: photo
+        photo: photo,
+        like: 0
     });
 
     news.save((err, newsSaved) => {

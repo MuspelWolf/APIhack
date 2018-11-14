@@ -9,7 +9,7 @@ const NewsSchema = new Schema({
     title: String,
     content: String,
     photo: String,
-    date: Date
+    date: Date,
 });
 
 

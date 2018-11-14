@@ -1,0 +1,22 @@
+{
+    "name": "APIhack",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MuspelWolf/APIhack.git"
+    },
+    "author": "MuspelWolf",
+    "license": "MIT",
+    "dependencies": {
+        "bcrpyt": "^2.0.0",
+        "express": "^4.16.4",
+        "mongoose": "^5.3.11",
+        "node": "^11.1.0",
+        "nodemon": "^1.18.6"
+    }
+}
